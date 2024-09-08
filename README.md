@@ -99,8 +99,8 @@ ftp:*:18120:0:99999:7:::
 ## Which Give Credential `root:hi***i`
 
 -> We directly get Root password 
-Q1. User.txt :- 606083fd***eb1284fc51f***a706af8
-Q2. Root.txt :- f7064564***7af4187810c***6cebdce
+Q1. User.txt :- 606083fd***eb1284fc51f***a706af8<br>
+Q2. Root.txt :- f7064564***7af4187810c***6cebdce<br>
 --
 
 ## Woow Aain Pwaned New Machine Succesfully
