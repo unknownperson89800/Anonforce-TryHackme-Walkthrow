@@ -51,19 +51,19 @@ PORT   STATE SERVICE VERSION
 Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 
--> Suspicius wasnotread where we have full access
--> Where we get the file like <b>private.asc , backup.pgp<b> PGP is an acronym for Pretty Good Privacy, a security program that encrypts and decrypts files, authenticates messages, and protects data communication
+## -> Suspicius wasnotread where we have full access
+## -> Where we get the file like <b>private.asc , backup.pgp<b> PGP is an acronym for Pretty Good Privacy, a security program that encrypts and decrypts files, authenticates messages, and protects data communication
 
--> So It Containign Very Imported Thing let see
--> We can See using <b>gpg</b> Command like :- 
+## -> So It Containign Very Imported Thing let see
+## -> We can See using <b>gpg</b> Command like :- 
 	>  gpg --decrypt file.pgp 
 		> To do this first we want key which we import using this Command :- <b>gpg --import privacy.asc</b>
--> But this Privacy File is encrypted let's decrypt it
+## -> But this Privacy File is encrypted let's decrypt it
 	-> <B>gpg2john privacy.asc > privacy_hash
 	john--wordlist=rockyou.txt privacy_hash </B>
 -> password :- xb***60
 -> File content :- 
-
+--
 root:$6$07nYFaYf$F4VMaegmz7dKjsTukBLh6cP01iMmL7CiQDt1ycIm6a.bsOIBp0DwXVb9XI2EtULXJzBtaMZMNd2tV4uob5RVM0:18120:0:99999:7:::
 daemon:*:17953:0:99999:7:::
 bin:*:17953:0:99999:7:::
